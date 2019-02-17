@@ -1,12 +1,10 @@
 
 import gym
-import numpy as np
 from pylab import *
 import tensorflow as tf
 from tensorflow.contrib.layers import fully_connected, conv2d, flatten
-import itertools
 
-from udemy_rl_2.image_utils import downsample_image, update_state
+from algorithms.image_utils import update_state
 
 
 class DQN:
